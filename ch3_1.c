@@ -14,9 +14,4 @@ int main() {
     printf("SIZE : %d\n", (int)statbuf.st_size);
     printf("Blksize : %d\n", (int)statbuf.st_blksize);
     printf("Blocks : %d\n", (int)statbuf.st_blocks);
-
-    printf("** timespec Style\n");
-    printf("Atime : %d\n", (int)statbuf.st_atim.tv_sec);
-    printf("time : %d\n", (int)statbuf.st_mtim.tv_sec);
-    printf("time : %d\n", (int)statbuf.st_ctim.tv_sec);
 }
